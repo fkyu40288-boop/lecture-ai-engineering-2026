@@ -1,12 +1,12 @@
 {
   "mcpServers": {
     "glossary": {
-      "command": "uv",
+      "url": "http://127.0.0.1:8000/mcp"
+    },
+    "fetch": {
+      "command": "uvx",
       "args": [
-        "run",
-        "python",
-        "-m",
-        "app.mcp_server"
+        "mcp-server-fetch"
       ]
     }
   }
